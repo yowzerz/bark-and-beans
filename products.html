@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>All Products - bark and beans 3.0</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    
+    <body>
+
+
+  
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/bnb-logo.png" width="125px"></a>
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="products.html">Food</a></li>
+                            <li><a href="products.html">Drinks</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="account.html">Account</a></li>
+                        </ul>
+                    </nav>
+                    
+                    <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                    <img src="images/menu.png" class="menu-icon" 
+                    onclick="menutoggle()">
+                </div>
+              
+            </div>
+      
+        <div class="small-container">
+
+
+            <div class="row row-2">
+                <h2>All Products</h2>
+                <select>
+                    <option>Default sorting</option>
+                    <option>Sort by price</option>
+                    <option>Sort by popularity</option>
+                    <option>Sort by rating</option>
+                    <option>Sort by sale</option>
+                </select>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/pastr-3.jpg">
+                    <h4>Doggie Pumpkin Cake</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+
+                    </div>
+                    <p>P235.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/pastr-1.jpg">
+                    <h4>Strawberry Chocolate Shortcake</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+
+                    </div>
+                    <p>P110.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/pastr-2.jpeg">
+                    <h4>Berry Pancake</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+
+                    </div>
+                    <p>P120.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/pastr-5.jpg">
+                    <h4>Berry Pineapple Danish</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>P90.00</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/drink-1.jpg">
+                    <h4>Caramel Chill</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+
+                    </div>
+                    <p>P150.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/kp-2.jpg">
+                    <h4>Arctic Noir</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+
+                    </div>
+                    <p>P110.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/drink-2.jpg">
+                    <h4>Midnight Mocha Swirl</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+
+                    </div>
+                    <p>P165.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/drink-3.jpg">
+                    <h4>Matcha Latte</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>P125.00</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/sandwich-1.jpg">
+                    <h4>Chicken Grilled Cheese</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+
+                    </div>
+                    <p>P120.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/sandwich-2.jpg">
+                    <h4>Club house</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+
+                    </div>
+                    <p>P110.00</p>
+                </div>
+                <div class="col-4">
+                    <a href="product-details.html"><img src="images/sandwich-4.jpg"></a>
+                    <a href="product-details.html"><h4>All Vegan Sandwich</h4></a>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+
+                    </div>
+                    <p>P180.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/sandwich-3.jpg">
+                    <h4>Turkey Sandwich</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>P125.00</p>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="images/pasta-1.jpg">
+                        <h4>Tomato Spinach Pasta</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+    
+                        </div>
+                        <p>P150.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/pasta-2.jpg">
+                        <h4>Macaroni Spaghetti</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+    
+                        </div>
+                        <p>P110.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/pasta-3.jpg">
+                        <h4>Pesto Pasta</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+    
+                        </div>
+                        <p>P135.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/pasta-4.jpg">
+                        <h4>Rigatori Bolognese</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>P173.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page-btn">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>&#8594;</span>
+            </div>
+        </div>
+<!-- footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Available for Android and ios.</p>
+                <div class="app-logo">
+                    <img src="images/gp.png">
+                    <img src="images/aplstr.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <a href="index.html"><img src="images/bnb-logo.png" alt=""></a>
+                <p>[Why this Business?]</p>
+            </div>
+            <div class="footer-col-3">
+               <h3>Useful Links</h3>
+               <ul>
+                <li>Coupons</li>
+                <li>Promos</li>
+                <li>Policy</li>
+                <li>Info</li>
+               </ul>
+            </div>
+            <div class="footer-col-3">
+                <h3>Follow us</h3>
+                <ul>
+                 <li>Facebook</li>
+                 <li>Twitter</li>
+                 <li>Instagram</li>
+                 <li>Linkedin</li>
+                </ul>
+             </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023 - K8-Shnl</p>
+    </div>
+</div>
+<!--Js for toggle Menu-->
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+
+            MenuItems.style.maxHeight = "0px";
+
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+                else
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }
+            }
+        </script>
+    </body>
+</html>
