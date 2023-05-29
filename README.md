@@ -20,5 +20,5 @@ I hope this tips help and guide you to understand how to interact with it.
 
 
 
-<h2>Made with love for Kate Shanlee Laureno</h2>
+<h3>Made with love for Kate Shanlee Laureno</h3>
 <p>Yours truly, Onigiri</p>
